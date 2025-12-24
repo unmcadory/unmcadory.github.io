@@ -199,7 +199,7 @@ body {
   text-align: center;
   position: relative;
   top: 80px;
-  margin-bottom: 20%;
+  margin-bottom: 10%;
 }
 
 .featured-container {
@@ -462,4 +462,5 @@ body {
   .footer-locations {
     justify-content: flex-start;
   }
+
 }
