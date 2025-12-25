@@ -61,7 +61,7 @@ body {
 }
 
 .logo {
-  width: clamp(180px, 14.5vw, 350px);
+  width: clamp(250px, 14.5vw, 350px);
   height: auto;
 }
 
@@ -90,9 +90,9 @@ body {
 .box {
   position: relative;
   border: 1px solid white;
-  top: 5vh;
+  top: 8vh;
   width: clamp(0px, 70vw, 1650px);
-  height: clamp(500px, calc(90vh * 0.5), calc(90vh * 0.5));
+  height: clamp(420px, 50vh, 750px);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -108,10 +108,10 @@ body {
 /* Big text */
 .box-title {
   font-family: "DM Serif Display", serif;
-  font-size: clamp(2rem, 4vw, 5rem);
+  font-size: clamp(2rem, 4.4vw, 5rem);
   line-height: 1;
   font-weight: 300;
-  letter-spacing: 0.28vw;
+  letter-spacing: 0.17vw;
   margin-bottom: 20px;
 }
 
@@ -125,7 +125,7 @@ body {
 /* Button */
 .box-button {
   font-family: "Albert Sans", sans-serif;
-  font-size: clamp(0.7rem, 1vw, 1.6rem);
+  font-size: clamp(0.7rem, 1.3vw, 1.4rem);
   letter-spacing: 0.18vw;
   width: 100%;
   padding: 26px 0;
@@ -149,7 +149,7 @@ body {
   inset: 0;
   z-index: -1;
   width: clamp(0px, 70vw, 1650px);
-  height: clamp(500px, calc(90vh * 0.5), calc(90vh * 0.5));
+  height: clamp(420px, 50vh, 700px);
   pointer-events: none;
 }
 
@@ -450,11 +450,6 @@ body {
 @media (max-width: 768px) {
   .footer-logo img {
     max-width: 150px;
-  }
-
-  .logo {
-      width: clamp(250px, 14vw, 370px);
-      height: auto;
   }
 
   .box-subtitle {
