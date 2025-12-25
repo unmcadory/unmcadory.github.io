@@ -92,7 +92,7 @@ body {
   border: 1px solid white;
   top: 5vh;
   width: clamp(0px, 70vw, 1650px);
-  height: clamp(570px, calc(90vh * 0.5), calc(90vh * 0.5));
+  height: clamp(500px, calc(90vh * 0.5), calc(90vh * 0.5));
   display: flex;
   justify-content: center;
   align-items: center;
@@ -149,7 +149,7 @@ body {
   inset: 0;
   z-index: -1;
   width: clamp(0px, 70vw, 1650px);
-  height: clamp(570px, calc(90vh * 0.5), calc(90vh * 0.5));
+  height: clamp(500px, calc(90vh * 0.5), calc(90vh * 0.5));
   pointer-events: none;
 }
 
