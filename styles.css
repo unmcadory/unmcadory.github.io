@@ -61,7 +61,7 @@ body {
 }
 
 .logo {
-  width: clamp(150px, 14vw, 350px);
+  width: clamp(180px, 14.5vw, 350px);
   height: auto;
 }
 
@@ -91,8 +91,8 @@ body {
   position: relative;
   border: 1px solid white;
   top: 5vh;
-  width: clamp(0px, 70vw, 1800px);
-  height: clamp(450px, 55vh, 55vh);
+  width: clamp(0px, 70vw, 1650px);
+  height: clamp(450px, calc(90vh * 0.5), calc(90vh * 0.5));
   display: flex;
   justify-content: center;
   align-items: center;
@@ -148,8 +148,8 @@ body {
   position: absolute;
   inset: 0;
   z-index: -1;
-  width: clamp(0px, 70vw, 1800px);
-  height: clamp(450px, 55vh, 55vh);
+  width: clamp(0px, 70vw, 1650px);
+  height: clamp(450px, calc(90vh * 0.5), calc(90vh * 0.5));
   pointer-events: none;
 }
 
@@ -500,5 +500,3 @@ body {
     justify-content: flex-start;
   }
 }
-
-
