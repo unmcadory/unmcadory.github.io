@@ -61,7 +61,7 @@ body {
 }
 
 .logo {
-  width: clamp(150px, 14vw, 370px);
+  width: clamp(150px, 14vw, 350px);
   height: auto;
 }
 
@@ -91,7 +91,7 @@ body {
   position: relative;
   border: 1px solid white;
   top: 5vh;
-  width: clamp(0px, 70vw, 1800px);
+  width: clamp(0px, 60vw, 1800px);
   height: clamp(450px, 50vh, 50vh);
   display: flex;
   justify-content: center;
