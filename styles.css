@@ -149,7 +149,7 @@ body {
   inset: 0;
   z-index: -1;
   width: clamp(0px, 70vw, 1800px);
-  height: clamp(450px, 50vh, 50vh);
+  height: clamp(450px, 55vh, 55vh);
   pointer-events: none;
 }
 
@@ -500,4 +500,5 @@ body {
     justify-content: flex-start;
   }
 }
+
 
