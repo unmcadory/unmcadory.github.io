@@ -124,16 +124,45 @@ body {
 
 /* Button */
 .box-button {
+  position: relative;
   font-family: "Albert Sans", sans-serif;
   font-size: clamp(0.7rem, 1.3vw, 1.4rem);
   letter-spacing: 0.18vw;
   width: 100%;
-  padding: 26px 0;
+  padding: 43px 0;
   background: rgba(255, 255, 255, 0.3);
   backdrop-filter: blur(15px);
   color: white;
   border: none;
   cursor: pointer;
+  overflow: hidden;
+}
+
+.box-button .default-button,
+.box-button .hover-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.4s ease;
+  white-space: nowrap;
+}
+
+.box-button .default-button {
+  opacity: 1;
+}
+
+.box-button .hover-button {
+  opacity: 0;
+  letter-spacing: 0;
+}
+
+.box-button:hover .default-button {
+  opacity: 0;
+}
+
+.box-button:hover .hover-button {
+  opacity: 1;
 }
 
 .box-button {
@@ -143,6 +172,8 @@ body {
 .box-button:hover {
   box-shadow: inset 0 0 0 1px white;
 }
+
+/* Progressive Blur Effect */
 
 .progressive-blur-container {
   position: absolute;
@@ -204,7 +235,7 @@ body {
   text-align: center;
   position: relative;
   top: 80px;
-  margin-bottom: 10%;
+  margin-bottom: 7%;
 }
 
 .featured-container {
@@ -386,7 +417,7 @@ body {
 }
 
 .footer-social {
-  gap: 15px;
+  gap: 20px;
   align-items: start;
   display: flex;
   flex-direction: row;
