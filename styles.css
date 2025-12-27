@@ -129,7 +129,7 @@ body {
   font-size: clamp(0.7rem, 1.3vw, 1.4rem);
   letter-spacing: 0.18vw;
   width: 100%;
-  padding: 40px 0;
+  height: clamp(calc(0.7rem * 3.5), calc(1.3vw * 3.5), calc(1.4rem * 3.5));
   background: rgba(255, 255, 255, 0.3);
   backdrop-filter: blur(15px);
   color: white;
@@ -180,7 +180,7 @@ body {
   inset: 0;
   z-index: -1;
   width: clamp(0px, 70vw, 1650px);
-  height: clamp(420px, 50vh, 700px);
+  height: clamp(420px, 50vh, 750px);
   pointer-events: none;
 }
 
@@ -526,4 +526,3 @@ body {
     justify-content: flex-start;
   }
 }
-
